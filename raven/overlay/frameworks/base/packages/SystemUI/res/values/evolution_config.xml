@@ -78,7 +78,7 @@
     <bool name="config_enableDisplayCutoutProtection">true</bool>
     
    <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">#ffffffff</color>
+    <color name="config_udfpsColor">?android:attr/colorAccent</color>
 
     <!-- Udfps HBM provider class name -->
     <string name="config_udfpsHbmProviderComponent">com.android.systemui.biometrics.PixelUdfpsHbmProvider</string>
