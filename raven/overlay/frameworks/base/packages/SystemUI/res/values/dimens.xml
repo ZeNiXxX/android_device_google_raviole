@@ -65,9 +65,5 @@
 
     <!-- Alpha in duration in ms for the auth ripple to become fully vislble. If set to 0, it is immediately visible. -->
     <integer name="auth_ripple_alpha_in_duration">0</integer>
-
-        <!-- Don't need the left side padding due to being inset from the cutout -->
-    <dimen name="status_bar_padding_start">0dp</dimen>
-    <dimen name="status_bar_padding_end">0dp</dimen>
 </resources>
 

@@ -78,9 +78,12 @@
     <bool name="config_enableDisplayCutoutProtection">true</bool>
     
    <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">?android:attr/colorAccent</color>
+    <color name="config_udfpsColor">#9AA0A6</color>
 
-       <!-- Max visible notification icons -->
+    <!-- Udfps HBM provider class name -->
+    <string name="config_udfpsHbmProviderComponent">com.android.systemui.biometrics.PixelUdfpsHbmProvider</string>
+
+    <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">5</integer>
     <integer name="config_maxVisibleNotificationIconsOnLock">6</integer>
 </resources>
