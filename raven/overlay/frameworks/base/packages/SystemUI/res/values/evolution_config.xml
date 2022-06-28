@@ -41,9 +41,9 @@
     <integer-array name="config_doze_brightness_sensor_to_brightness">
         <item>-1</item> <!-- 0: OFF -->
         <item>5</item> <!-- 1: NIGHT -->
-        <item>5</item> <!-- 2: LOW -->
-        <item>16</item> <!-- 3: HIGH -->
-        <item>16</item> <!-- 4: SUN -->
+        <item>50</item> <!-- 2: LOW -->
+        <item>-130</item> <!-- 3: HIGH -->
+        <item>-160</item> <!-- 4: SUN -->
     </integer-array>
 
     <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
@@ -53,9 +53,9 @@
     <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
         <item>-1</item> <!-- 0: OFF -->
         <item>133</item> <!-- 1: NIGHT -->
-        <item>0</item> <!-- 2: LOW -->
-        <item>0</item> <!-- 3: HIGH -->
-        <item>0</item> <!-- 4: SUN -->
+        <item>-1</item> <!-- 2: LOW -->
+        <item>-1</item> <!-- 3: HIGH -->
+        <item>-1</item> <!-- 4: SUN -->
     </integer-array>
 
     <bool name="config_roundedCornerMultipleRadius">true</bool>
