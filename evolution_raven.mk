@@ -6,7 +6,7 @@ TARGET_BOOT_ANIMATION_RES := 1440
 # Inherit some common Evo/Rav stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-EXTRA_UDFPS_ANIMATIONS := true
+EXTRA_UDFPS_ANIMATIONS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true
