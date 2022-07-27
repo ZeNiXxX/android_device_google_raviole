@@ -39,4 +39,5 @@ COMMON_LUNCH_CHOICES := \
     aosp_slider-userdebug \
     aosp_whitefin-userdebug \
     aosp_oriole-userdebug \
-    aosp_raven-userdebug
+    aosp_raven-userdebug \
+    derp_raven-userdebug
