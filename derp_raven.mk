@@ -5,18 +5,18 @@
 #
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_raven.mk)
 
-include device/google/gs101/lineage_common.mk
-include device/google/raviole/device-lineage.mk
+include device/google/gs101/derp_common.mk
+include device/google/raviole/device-derp.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6 Pro
-PRODUCT_NAME := lineage_raven
+PRODUCT_NAME := derp_raven
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
