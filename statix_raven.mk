@@ -10,6 +10,10 @@ $(call inherit-product, vendor/statix/config/gsm.mk)
 $(call inherit-product, device/google/raviole/aosp_raven_64.mk)
 $(call inherit-product, device/google/raviole/device-statix.mk)
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_BLUR := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := statix_raven
 PRODUCT_MODEL := Pixel 6 Pro
